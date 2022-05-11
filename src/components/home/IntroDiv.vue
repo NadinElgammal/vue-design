@@ -1,0 +1,60 @@
+<template>
+    <section>
+        <div class="curved">
+            <div class="content">
+                <h1>Discover what you've <br> been looking for</h1>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+
+export default{
+    name:"IntroDiv",
+}
+
+</script>
+
+<style scoped>
+
+    
+.curved {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    /* padding: 50px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.curved::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(100deg,#3257FB,#607dfd);
+    z-index: -1;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+.curved .content {
+    color: white;
+    text-align:center;
+    margin-top: 150px;
+}
+
+.curved .content h1 {
+    font-size: 3rem;
+}
+@media (max-width:575px) {
+    .curved .content h1{
+        font-size: 22px;
+    }
+}
+</style>
