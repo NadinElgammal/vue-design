@@ -1,0 +1,62 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    background: linear-gradient(100deg,#3257FB,#607dfd);
+}
+header .lhs{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 20px;
+}
+header .lhs .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+}
+header .rhs{
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    gap:20px;
+    padding: 10px 20px;
+}
+.logo-img{
+    justify-content: flex-start;
+    width:50px;
+}
+.nav-text{
+    top:25px;
+    left: 80px;
+    color: white;
+    text-decoration: underline;
+}
+.pro-img{
+    border-radius: 50%;
+    width: 45px;
+    height: 50px;
+}
+.name{
+    top:25px;
+    color: white;
+}
+.icon{
+    width: 35px;
+    top: 12px;
+}
+.num{
+    
+    top:25px;
+    color: white;
+}
+

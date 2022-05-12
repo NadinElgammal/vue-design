@@ -1,0 +1,141 @@
+.search-part {
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.icon {
+    background-color: #0E0E0F;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-icon {
+    background-color: #9d5cff;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like-icon {
+    background-color: #3257FB;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.dislike-icon {
+    background-color: #842E00;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.filter-icon,
+.saved-icon,
+.like-icon,
+.dislike-icon {
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 6rem auto;
+}
+
+.label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+}
+
+.searchBar {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 0 0 1.5rem;
+    font-size: 1rem;
+}
+
+#searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    color: #848791;
+}
+
+#searchQuerySubmit:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 100%;
+    /* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25); */
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.img-part {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(210px at center 0);
+}
+
+img{
+    width: 100%;
+    object-position: center;
+}
+
+.reacts{
+    position:absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.text-part{
+    margin: 18px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.card:hover{
+    filter: grayscale(100%) blur(2px);
+    opacity: 50%;
+
+}
