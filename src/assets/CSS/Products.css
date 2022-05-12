@@ -105,19 +105,23 @@
     overflow: hidden;
     margin-bottom: 20px;
     transition: 0.5s;
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 .img-part {
     position: relative;
     width: 100%;
     height: 100%;
-    clip-path: circle(210px at center 0);
+    /* clip-path: circle(210px at center 0); */
+    /* border-radius: 0 0 50% 50% ; */
+    /* transform: scaleX(2); */
+    overflow: hidden;
 }
 
 img{
     width: 100%;
-    object-position: center;
+    object-fit: cover;
+    border-radius: 0 0 40% 40% ;
 }
 
 .reacts{
@@ -137,5 +141,5 @@ img{
 .card:hover{
     filter: grayscale(100%) blur(2px);
     opacity: 50%;
-
+    transform: rotateY(180deg)
 }
